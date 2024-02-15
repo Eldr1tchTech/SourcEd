@@ -1,5 +1,6 @@
-public class App {
+public class SourcEd {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        SourcEdIO IOManager = new SourcEdIO();
+        IOManager.MainMenu();
     }
 }
